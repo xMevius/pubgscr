@@ -1,0 +1,851 @@
+gg.toast(os.date("Today: %Y/%m/%d Time: %H:%M:%S\n❖ PUBG MOBILE 0.7.5 XMV 7.4 ❖||xMevius||"))
+gg.toast("Contact Me If Some Scripts Not Working")
+gg.alert(os.date("❖ PUBG MOBILE 0.7.5 XMV 7.4 ❖\n▶ Today: %Y/%m/%d Time: %H:%M:%S\n▶ Kịch Bản Dành Riêng Cho PUBG Mobile 0.7.5 Mod APK. Không Sử Dụng Trên Bản CHPlay (Google Play Store)\n▶ Script For BUBG MOBILE 0.7.5 Mod Apk. Do Not Use It On The (Google Play Store)\n▶ Youtube Channel: xMevius\n▶ Thank you Everyone for your support.\n▶ Good Luck 👍"))
+
+HOME = 1
+function HOME()
+AB = gg.choice({"⚠ New Bypass 0.7.5 (Tencent Logo)",
+"➤ 【New】 One Click Lobby\n↪ AimBot, No Recoil, Head Only + Bullet Tracking",
+"➤ 【New】 One Click Landing\n↪ Remove Grass, Black Sky, Color Yellow, Antena Always, Antena Item 3",
+"➤ 【Wallhack + Color】 Landing",
+"➤ 【Menu】 Lobby/Landing",
+"➤ 【Menu】 Standby Map",
+"➤ 【Menu】 Jeep",
+"➤ 【Menu】 Zoom Scope",
+"➤ 【Menu】 Fast Bullets",
+"____________||✘EXIT||____________",
+"               ❖xMevius Contact❖"},nil,"❖ PUBG MOBILE 0.7.5 XMV 7.4 ❖\n▶YOUTUBE: xMevius")
+if AB == 1 then xMevius() end
+if AB == 2 then OC() end
+if AB == 3 then OC2() end
+if AB == 4 then LB() end
+if AB == 5 then LD() end
+if AB == 6 then VS() end
+if AB == 7 then JM() end
+if AB == 8 then ZM() end
+if AB == 9 then FB() end
+if AB == 10 then XMV() end
+if AB == 11 then CT() end
+XMEVIUS = - 1
+end
+
+function xMevius()
+gg.toast("Bypass is working...")
+gg.setRanges(gg.REGION_BAD)
+gg.clearResults()
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(300)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Security Removed! ✔100%")
+gg.alert(os.date("Today: %Y/%m/%d Time: %H:%M:%S\nYou Can Now Use Scripts. Good Luck 👍"))
+end
+
+function LB()
+xMV = gg.multiChoice({"✧ WallHack Snap 625",
+"✧ WallHack Snap 626",
+"✧ WallHack Snap 660",
+"✧ WallHack Snap 835",
+"✧ WallHack Snap 845",
+"✧ Color Red",
+"✧ Color Mix",
+"✧ Color Blue HDR",
+"✧ Color Green",
+"✧ Color Yellow",
+"✧ Color RED 845",
+"✧ Color HDR 835/845",
+"✧ Color White (All Device)",
+"✧ Color Black (All Device)",
+"✧ Color White (Mediatek)",
+"↶ Back"},nil,"❖ PUBG MOBILE 0.7.5 XMV 7.4 ❖\n▶YOUTUBE: xMevius")
+if xMV == nil then else
+if xMV[1] == true then wh625() end
+if xMV[2] == true then wh626() end
+if xMV[3] == true then wh660() end
+if xMV[4] == true then wh835() end
+if xMV[5] == true then wh845() end
+if xMV[6] == true then CLR() end
+if xMV[7] == true then CLM() end
+if xMV[8] == true then CB() end
+if xMV[9] == true then CG() end
+if xMV[10] == true then YEL() end
+if xMV[11] == true then R845() end
+if xMV[12] == true then HDR8345() end
+if xMV[13] == true then CW() end
+if xMV[14] == true then CL() end
+if xMV[15] == true then MTKW() end
+if xMV[16] == true then HOME() end
+end
+XMEVIUS = - 1
+end
+
+function CLM()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1.1490647e-41;1.0863203e-19::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.0863203e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("1.0863203e-25", gg.TYPE_FLOAT)
+gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function OC()
+AIC()
+  gg.clearResults()
+RC()
+    gg.clearResults()
+HOL()
+    gg.clearResults()
+UAI()
+gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function MTKW()
+  gg.clearResults()
+  gg.setVisible(false)
+  gg.searchNumber("0.05499718338;1::512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.setVisible(false)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("999", gg.TYPE_FLOAT)
+  gg.clearResults()
+   gg.toast("Successful Activation")
+end
+
+function wh625()
+  gg.setRanges(gg.REGION_BAD)
+  gg.clearResults()
+  gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("32769D;32770D;2.0F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(9)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+   gg.toast("Successful Activation")
+end
+
+function wh626()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("1,900,553;178;37;2F::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("2.25;3.75000071526;331,813D;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("720,918;1,081,081,860;397,358;50,331,648;2F::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("671,236,101;1,074,790,406;178;12;2F::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+   gg.toast("Successful Activation")
+end
+
+function wh660()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function wh835()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("5.1097599e21;2.0;1.6623071e-19::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("-0.01000213623;2;-1;0;0.04000854492", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(131072)
+  gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function wh845()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("5.3680222e21;1.3312335e-43;1.3912563e-19;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("4.8146053e21;2.8866748e-43;1.3912556e-19;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("5.201992e21;4.4028356e-29;2.25000452995;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("4.9252857e21;6.488138e-40;4.9252863e21;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("1.0761972e-42;4.5920551e-41;-1.7632415e-38;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("1.0761972e-42;4.5923353e-41;-1.7632457e-38;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("5.3311276e21;1.3312335e-43;1.391256e-19;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("4.8146041e21;2.8866748e-43;1.3912537e-19;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("6.50000333786;1.1202013e-19;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("99999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("1.1202011e-19F;1.1202015e-19F; 3.7615819e-37F;255.0F;2.0F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("99999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function R845()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("1,661,566,999;96;539,246,604;8200::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("7", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function HDR8345()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("256;8200;16", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("8499", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function CB()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber('589826', gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+  gg.getResults(20050309)
+  gg.editAll('666666', gg.TYPE_DWORD)
+  gg.toast("Successful Activation")
+end
+
+function CLR()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("8,192D;256D;8200D", gg.TYPE_DWORD, false, 536870912, 0, -1)
+  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(20)
+  gg.editAll("7", gg.TYPE_DWORD)
+gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function CG()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("32,769;-2,134,900,722", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("32769", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("32777", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function YEL()
+  gg.setRanges (gg.REGION_BAD)
+  gg.searchNumber('8200;1,080,035,591::512', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber('8200', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll('6', gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function CW()
+  gg.searchNumber(' 573.70306396484;0.05499718338;1 ', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+  gg.searchNumber('1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+  gg.getResults(5000) 
+  gg.editAll('999', gg.TYPE_FLOAT)
+  gg.toast('__xMevius__')
+  gg.clearResults(5000)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function CL()
+  gg.searchNumber(' 573.70306396484;0.05499718338;1 ', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber(' 1.0 ', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1200) gg.editAll('-999', gg.TYPE_FLOAT) 
+  gg.toast('__xMevius__')
+  gg.clearResults(1200)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function LD()
+Mevius = gg.multiChoice({"✧ Small Shot Center\n↪ 【Lobby】",
+"✧ Ultra AimBot\n↪ 【Lobby】",
+"✧ No Recoil\n↪ 【Lobby】",
+"✧ Head Only + Bullet Tracking\n↪ 【Lobby】",
+"✧ Fast Run\n↪ 【Landing】",
+"✧ Antena\n↪ 【Landing】",
+"✧ Antena [Head]\n↪ 【Landing】",
+"✧ Antena (Always)\n↪ 【Landing】",
+"✧ Antena Item 3\n↪ 【Landing】",
+"↶ Back"},nil,"❖ PUBG MOBILE 0.7.5 XMV 7.4 ❖\n▶YOUTUBE: xMevius")
+if Mevius == nil then else
+if Mevius[1] == true then AIC() end
+if Mevius[2] == true then UAI() end
+if Mevius[3] == true then RC() end
+if Mevius[4] == true then HOL() end
+if Mevius[5] == true then SP() end
+if Mevius[6] == true then AT() end
+if Mevius[7] == true then ATH() end
+if Mevius[8] == true then AT2() end
+if Mevius[9] == true then AIT() end
+if Mevius[10] == true then HOME() end
+end
+XMEVIUS = - 1
+end
+
+function AIC()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("3.20000004768;1.09375", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("3.20000004768;1.09375", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("0", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function HOL()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-480", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-580", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("333", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function RC()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1868784978;1850305641;28518", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1868784978", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1000)
+  gg.editAll("1868784900", gg.TYPE_DWORD)
+  gg.clearResults() 
+  gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1) 
+  gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1000)
+  gg.editAll("819307000", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function UAI()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("3.5;1;0.5;200;20::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(200)
+  gg.editAll("99999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function SP()
+  gg.clearResults() 
+gg.setRanges(gg.REGION_ANONYMOUS) 
+gg.searchNumber("3.5873241e-43;0.6;0.1;0.125::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+gg.searchNumber("3.5873241e-43", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+gg.getResults(599)
+gg.editAll("9999", gg.TYPE_FLOAT) 
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function AT()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.setRanges(32)
+  gg.searchNumber("18.38613319397F;0.53447723389F;3.42665576935F",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.searchNumber("18.38613319397;0.53447723389;3.42665576935",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.getResults(3)
+  gg.editAll("99999",gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function AT2()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1.0;0.9537679553;0.06111789867", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("99999", gg.TYPE_FLOAT)
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.clearResults() gg.searchNumber("0.53446006775F;-1.68741035461F:501", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1.68741035461", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1995)
+  gg.editAll("99999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("18.38613319397F;0.53447723389F;3.42665576935F",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.searchNumber("18.38613319397;0.53447723389;3.42665576935",16,false,gg.SIGN_EQUAL,0,-1)
+  gg.getResults(13)
+  gg.editAll("99999",gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function ATH()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("7.13142681122;0.53447723389;22.6400718689", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("22.6400718689", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("9666", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function AIT()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("7.1689529418945", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(3)
+  gg.editAll("999999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("3.4779739379883;2.8345839977264;3.1967880725861;3.8841888904572;3.1528658866882::208", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("3.4779739379883", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1)
+  gg.editAll("003,005,0", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("7.4993133544922", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("7.4993133544922", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1)
+  gg.editAll("999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("0.73620933294296", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(3)
+  gg.editAll("999999", gg.TYPE_FLOAT)
+  gg.clearResults()    
+  gg.toast("Successful Activation")
+end
+
+function OC2()
+GR()
+  gg.clearResults()
+BS()
+    gg.clearResults()
+RTG()
+    gg.clearResults()
+YEL()
+    gg.clearResults()
+AT2()
+    gg.clearResults()
+AIT()
+gg.clearResults()    
+  gg.toast("Successful Activation")
+end
+
+function VS()
+xMV2 = gg.multiChoice({"✧ Remove Grass",
+"✧ Violet Effect",
+"✧ Black Sky",
+"✧ Vision Extend",
+"✧ White Perspective",
+"✧ Remove Tree + Grass\n(Near, Stable)",
+"✧ Remove Tree + Grass\n(Far, Stable)",
+"↶ Back"},nil,"❖ PUBG MOBILE 0.7.5 XMV 7.4 ❖\n▶YOUTUBE: xMevius")
+if xMV2 == nil then else
+if xMV2[1] == true then GR() end
+if xMV2[2] == true then VF() end
+if xMV2[3] == true then BS() end
+if xMV2[4] == true then VEX() end
+if xMV2[5] == true then sn() end
+if xMV2[6] == true then RTG() end
+if xMV2[7] == true then RGN() end
+if xMV2[8] == true then HOME() end
+end
+XMEVIUS = - 1
+end
+
+function VEX()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.clearResults()
+  gg.searchNumber('220;178;15 ', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber('220', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(300)
+  gg.editAll('1200', gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function GR()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("8.0F;1.20000004768F;0.80000001192F;1.5F;0.80000001192F;1.5F::512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("8.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(300)
+  gg.editAll("0", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function sn()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("3.75000119209;2;2.00000023842;2.00000047684;2.7506108284;3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("417", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function VF()
+  gg.searchNumber("589828", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("-99", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function BS()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("100F;1F;1,008,981,770D:99", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+  gg.searchNumber("100", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("-9999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function RTG()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("4.8883906e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("4.8883906e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("4.8883906e20", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function RGN()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("2;10000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("0", gg.TYPE_FLOAT,FREEZE_NORMAL)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function ZM()
+xMV4 = gg.choice({"✧ Zoom 4X",
+"✧ OFF Zoom 4X",
+"✧ Zoom 8X",
+"✧ OFF Zoom 8X",
+"____________||↶ Back||____________"},nil,"❖ PUBG MOBILE 0.7.5 XMV 7.4 ❖\n▶YOUTUBE: xMevius")
+if xMV4 == 1 then Z4X() end
+if xMV4 == 2 then Z4O() end
+if xMV4 == 3 then Z8X() end
+if xMV4 == 4 then Z8O() end
+if xMV4 == 5 then HOME() end
+XMEVIUS = - 1
+end
+
+function Z4X()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("60;55;1.9618179e-44 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(300)
+  gg.editAll("20", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function Z4O()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("60;20;1.9618179e-44 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(300)
+  gg.editAll("55", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function Z8X()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("60;55;1.9618179e-44 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(300)
+  gg.editAll("15", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function Z8O()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("60;15;1.9618179e-44 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(300)
+  gg.editAll("55", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function FB()
+xMV5 = gg.choice({"✧ M416 Speed",
+"✧ Scar-L Speed",
+"✧ AKM Speed",
+"✧ AWM Speed",
+"✧ K98 Speed",
+"✧ M24 Speed",
+"✧ Quick Guns",
+"____________||↶ Back||____________"},nil,"❖ PUBG MOBILE 0.7.5 XMV 7.4 ❖\n▶YOUTUBE: xMevius")
+if xMV5 == 1 then M416() end
+if xMV5 == 2 then SCAR() end
+if xMV5 == 3 then AKM() end
+if xMV5 == 4 then AWM() end
+if xMV5 == 5 then K98() end
+if xMV5 == 6 then M24() end
+if xMV5 == 7 then QG() end
+if xMV5 == 8 then HOME() end
+XMEVIUS = - 1
+end
+
+function QG()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("0.83333331347;1;0.83333331347::321", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("0.83333331347", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(200)
+  gg.editAll("0.000001", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function M416()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("30D;10D;0F~1F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("0.08600000292", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(50)
+  gg.editAll("0.04200000272", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function SCAR()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("30D;10D;0F~1F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("0.09600000083", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(50)
+  gg.editAll("0.04800000022", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function AKM()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("30D;10D;0F~1F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("0.10000000149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(50)
+  gg.editAll("0.001", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function AWM()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("91000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("500000", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function K98()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("76000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("500000", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function M24()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("79000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("500000", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function CT()
+TC = gg.choice({"❖ Mail: vnmevius@gmail.com",
+"❖ Youtube: xMevius",
+"____________||↶ Back||____________"},nil,"❖ PUBG MOBILE 0.7.5 XMV 7.4 ❖\n▶YOUTUBE: xMevius")
+if TC == 1 then CT() end
+if TC == 2 then CT() end
+if TC == 3 then HOME() end
+XMEVIUS = - 1
+end
+
+function JM()
+xMV6 = gg.choice({"✧ Wall Car",
+"✧ Jeep Acceleration",
+"✧ Jeep launches in Water",
+"____________||↶ Back||____________"},nil,"❖ PUBG MOBILE 0.7.5 XMV 7.4 ❖\n▶YOUTUBE: xMevius")
+if xMV6 == 1 then wa() end
+if xMV6 == 2 then JA() end
+if xMV6 == 3 then JLW() end
+if xMV6 == 4 then HOME() end
+XMEVIUS = - 1
+end
+
+function JA()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("0.647058857", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function JLW()
+  gg.searchNumber("150;85;45;-129;-85", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResultCount()
+  gg.searchNumber(45, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResultCount()
+  gg.getResults(100)
+  gg.editAll("99996", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function wa()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("304.00009155273;3.7615819e-37;2;-1;1;-127::240", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Successful Activation")
+end
+
+function XMV()
+  print(os.date("Script: PUBG MOBILE V0.7.%d ||xMevius||"))
+  print("❖ Like & Subscribe.")
+  print("❖ Youtube Channel: xMevius")
+  print("❖ Gmail: vnmevius@gmail.com")
+  print("❖ Thank You Everyone For your Support.")                                            os.exit()
+end
+
+          cs = "Copyright By xMevius"
+                           while true do
+if gg.isVisible(true) then
+               XMEVIUS = 1
+          gg.setVisible(false) 
+                               end
+                       gg.clearResults()
+if XMEVIUS == 1 then HOME() end
+                                                             end
